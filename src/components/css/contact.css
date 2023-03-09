@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.form-container-s{
+    width: 100%;
+    padding-top: 5%;
+}
+.container{
+    padding: 12%;
+}
+.container-s{
+    margin-top: 12%;
+    padding: 5%;
+    text-align: left;
+}
+.white--header{
+    margin-bottom: 2%;
+}
+.mobile{
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: left;
+}
+.form-container{
+    display: flexbox;
+    align-items: left;
+    justify-content: left;
+    padding-left: 2em;
+    margin-bottom: -2rem;
+    text-align: left;
+}
+.footer {
+    padding-top: 5%;
+}
+.FormText--button {
+    float: right;
+}
+.FormText{
+    padding-left: 2%;
+    font-size: 1.2rem;
+    float:left;
+}
+input[type=text], input[type=email] {
+    border: 2px solid #45337D;
+    border-radius: 2rem;
+    color: #45337D;
+    transition: width 2s ease-in-out;
+    height: auto;
+    padding: 0.7em;
+    padding-left: 2%;
+    margin-left: 2rem;
+    background-color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 35%;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: .8;
+    color: #45337D;
+    font-size: 1.9em;
+}
+.FormText--button{
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #45337D;
+    border: solid 1px transparent;
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+.FormText--button:hover {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+    color: #45337D;
+}
+.FormInput{
+    float:left;
+    display: flex;
+    padding: 0;
+    margin: 10px;
+    padding: 0 !important;
+    margin-left: 0;
+    min-width: 54%
+}
+.FormInput::placeholder{
+    opacity: .8;
+    color: #45337D;
+    font-size: 1rem;
+}
+.inputi{
+    min-width: 50%;
+}
+.inputiii{
+    min-width: 85%;
+}
+.FormInput{
+    min-width: 32rem;
+    font-size: 1.9rem;
+}
+.FormInput::placeholder {
+    font-weight: bold;
+    color: #45337D;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,18 @@
+.images-sml{
+    width: 100vw;
+}
+.images{
+    margin-left: 0;
+    max-width: 60vw;
+}
+.text{
+    margin-right: 0;
+    min-width: 40vw;
+}
+.text-sml{
+    padding: 2rem;
+}
+#next1{
+    width: 100%;
+    margin-top: 10%;
+}

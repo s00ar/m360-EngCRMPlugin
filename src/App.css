@@ -1,0 +1,21 @@
+.App {
+  overflow: hidden;
+  text-align: center;
+  background-color: #000;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* DEBUG CODE */
+/* * {
+  outline: 1px solid red;
+} */
